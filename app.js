@@ -14,7 +14,7 @@ app.use(express.json());
 const booksRouter = require('./routes/books');
 const { renderBooksPage } = require('./controllers/booksController');
 
-// routes endpoint /books
+// routes endpoint /book
 app.use('/books', booksRouter);
 
 // Endpoint EJS
